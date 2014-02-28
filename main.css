@@ -1,0 +1,175 @@
+* {
+	font-family: "Verdana", sans-serif;
+}
+
+body {
+	padding: 20px 13px;
+	margin: 0;
+}
+
+.wrapper {
+	min-width: 998px;  /** 1024 - 26px(padding) **/
+	max-width: 1894px; /** 1920 - 26px(padding) **/
+	margin: auto;
+}
+
+header {
+	height: 34px;
+	color: rgb(55,55,55);
+}
+
+.center {
+	width: 196px;
+	margin: auto;
+}
+
+.logo {
+	margin-left: 32px;
+	position: absolute;
+	font-size: 40px;
+	line-height: 34px;
+}
+
+.profile {
+	text-align: right;
+	margin-right: 6px;
+	font-size: 14px;
+}
+
+.name {
+	line-height: 34px;
+	float: right;
+	letter-spacing: -1px;
+}
+
+.profile .circle {
+	float: right;
+	margin-right: 10px;
+}
+
+.circle {
+	width: 34px;
+	height: 34px;
+	-webkit-border-radius: 17px;
+	-moz-border-radius: 17px;
+	border-radius: 17px;
+	background: rgb(55,55,55);
+	float: left;
+	margin-left: 15px;
+}
+
+nav {
+	overflow: hidden;
+}
+
+nav > div {
+	background: rgb(55,55,55);
+	height: 55px;
+	float: left;
+	margin-top: 15px;
+	font-weight: bold;
+	color: white;
+}
+
+nav .left {
+	width: 63.3%;
+}
+
+nav .left .link > div:first-of-type {
+	color: rgb(154,155,68);
+}
+
+nav .left .single {
+	float: right;
+	margin-right: 60px;
+}
+
+nav .right {
+	width: 35.3%;
+	float: right;
+}
+
+nav .right .link {
+	width: 27%;
+	float: right;
+	margin: 0 5px 0 15px;
+}
+
+.right .link > div {
+	margin-top: 9px;
+}
+
+.link {
+	float: left;
+	font-size: 23px;
+	letter-spacing: -2px;
+	text-align: center;
+}
+
+nav .group {
+	margin-left: 29px;
+}
+
+nav .group .link {
+	width: 19%;
+}
+
+.link > div {
+	float: left;
+	line-height: 55px;
+}
+
+.link > div:first-of-type {
+	font-size: 35px;
+	margin-top: 4px;
+}
+
+.content {
+	margin: 44px 60px;
+	background: blue;
+}
+
+.content > div {
+	float: left;
+} 
+
+.content .left {
+	width: 51%;
+}
+
+.content .right {
+	width: 44%;
+	float: right;
+}
+
+.item {
+	background: rgb(55,55,55);
+	color: white;
+	height: 48px;
+	clear: both;
+	margin-bottom: 15px;
+}
+
+.mini-circle {
+	width: 18px;
+	height: 18px;
+	-webkit-border-radius: 9px;
+	-moz-border-radius: 9px;
+	border-radius: 9px;
+	background: gold;
+	float: left;
+	margin: 16px;
+}
+
+.text {
+	line-height: 60px;
+}
+
+.block {
+	background: rgb(55,55,55);
+	height: 240px;
+	margin-bottom: 15px;
+}
+
+
+
